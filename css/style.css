@@ -1,5 +1,6 @@
 /* universal styles */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap') * {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap') 
+*{
     margin: 0;
     padding: 0;
     font-family: "Poppins";
@@ -37,9 +38,6 @@
     align-items: center;
     padding: 70px 0;
 }
-
-.home_banner_text {}
-
 .home_banner_text h1 {
     color: #3A3A3A;
     font-size: 3rem;
@@ -123,9 +121,6 @@
     justify-items: center;
     padding: 30px 0;
 }
-
-.clients_container img {}
-
 /* clients section styles  */
 
 /* product section style  */
@@ -164,9 +159,6 @@
 .product:hover {
     box-shadow: 0px 0px 10px #00000094;
 }
-
-.product img {}
-
 .product h2 {
     color: var(--Text-Gray-900, #18191F);
     font-size: 1.5rem;
@@ -243,9 +235,6 @@
 .bootom_banner_img {
     flex-basis: 40%;
 }
-
-.bottom_banner_text {}
-
 .bottom_banner_text h1 {
     color: #0A0826;
     font-weight: 700;
@@ -279,9 +268,6 @@
 .footer_section {
     background-color: #0A0826;
 }
-
-.footer_section_wrapper {}
-
 footer {
     text-align: center;
     padding: 80px 0;
@@ -337,10 +323,6 @@ footer p {
     .home_banner{
         padding-bottom: 0;
     }
-    .home_banner_wrapper {}
-
-    .nav_wrapper {}
-
     header {
         padding: 10px;
         background-color: #e02c6d;
@@ -365,9 +347,6 @@ footer p {
     .nav_res span {
         color: #1b1b1b !important;
     }
-
-    .navbar-toggler {}
-
     .navbar-toggler-icon {
         filter: invert(1);
         border: none;
@@ -416,7 +395,7 @@ footer p {
         justify-content: center;
     }
     .product{
-        margin_bottom:5px;
+        margin-bottom:5px;
     }
     .pro_button{
     position: relative;
