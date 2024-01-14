@@ -20,7 +20,10 @@
 .btn_primary:hover {
     background-color: #3A3A3A;
 }
-
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
 /* universal styles */
 /* home banner style  */
 .home_banner {
