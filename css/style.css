@@ -350,6 +350,7 @@ footer p {
     .nav_ul li a {
         font-size: 20px;
         color: white !important;
+        text-align: right;
     }
 
     .nav_res {
@@ -420,6 +421,22 @@ footer p {
     .pro_button{
     position: relative;
     text-align: center;
+    }
+    .bottom_banner{
+        padding: 0px 0 70px;
+    }
+    .bottom_banner_wrapper{
+    flex-direction: column-reverse;
+    }
+    .bottom_banner_text{
+        padding:0 0 30px;
+        text-align:center;
+    }
+    .bootom_banner_img img{
+        max-width:100%;
+    }
+    footer{
+        padding:40px 0;
     }
 }
 
