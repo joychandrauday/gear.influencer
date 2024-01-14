@@ -64,6 +64,10 @@
 
 .home_banner_img img {}
 
+.nav_ul{
+    width: 100%;
+    justify-content: end;
+}
 /* home banner style  */
 /* clients section styles  */
 .client_section {
